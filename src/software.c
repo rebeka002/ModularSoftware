@@ -392,7 +392,7 @@ void menu()
     default:
         printf("\nInvalid choice\n");
         menu();
-        return; // Opustíme funkci, aby nedošlo k provádění kódu po skončení rekurze
+        return; 
     }
 
     func = function_menu();
