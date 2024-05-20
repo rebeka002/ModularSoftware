@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "SIKEp434",
+					"jsonFile" : "directory-SIKEp434-Release-6808999bc07dbd34c951.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SIKEp434",
+					"targetIndexes" : 
+					[
+						0,
+						7
+					]
+				},
+				{
+					"build" : "SIKEp503",
+					"jsonFile" : "directory-SIKEp503-Release-521771d320e07dc0d074.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SIKEp503",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "SIKEp610",
+					"jsonFile" : "directory-SIKEp610-Release-6688d12fd31da42fcfae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SIKEp610",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				},
+				{
+					"build" : "SIKEp751",
+					"jsonFile" : "directory-SIKEp751-Release-8d3edcc167a9a4a3f560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SIKEp751",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "isogeny_ref",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "kat_SIKEp434::@122702cdf7e21ea54df2",
+					"jsonFile" : "target-kat_SIKEp434-Release-25fb40d19b8f97125f3b.json",
+					"name" : "kat_SIKEp434",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kat_SIKEp503::@fa16742dfc8b0c47d5c5",
+					"jsonFile" : "target-kat_SIKEp503-Release-b298b5c0e52797c63c54.json",
+					"name" : "kat_SIKEp503",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kat_SIKEp610::@501f3e39733960a7b0df",
+					"jsonFile" : "target-kat_SIKEp610-Release-3f4b48e4f7e5bec8fe97.json",
+					"name" : "kat_SIKEp610",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kat_SIKEp751::@265b1bdabbc29191f609",
+					"jsonFile" : "target-kat_SIKEp751-Release-3c23a1738ab94d4a9564.json",
+					"name" : "kat_SIKEp751",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sike_ref::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sike_ref-Release-504bacd47147e838fcc0.json",
+					"name" : "sike_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sike_ref_for_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sike_ref_for_test-Release-bba7bcb5c2187711781a.json",
+					"name" : "sike_ref_for_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sike_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-sike_test-Release-1b985d7ee05ca3eb71ba.json",
+					"name" : "sike_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sikep434_ref::@122702cdf7e21ea54df2",
+					"jsonFile" : "target-sikep434_ref-Release-2d310da55418999bba7e.json",
+					"name" : "sikep434_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sikep503_ref::@fa16742dfc8b0c47d5c5",
+					"jsonFile" : "target-sikep503_ref-Release-9249d9abbbbca99874d5.json",
+					"name" : "sikep503_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sikep610_ref::@501f3e39733960a7b0df",
+					"jsonFile" : "target-sikep610_ref-Release-ee588588d6a07cba2d58.json",
+					"name" : "sikep610_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sikep751_ref::@265b1bdabbc29191f609",
+					"jsonFile" : "target-sikep751_ref-Release-29abff7f6a6756e6b481.json",
+					"name" : "sikep751_ref",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Rebeka/Desktop/ModularSoftware/implementations/SIKE_orig/build",
+		"source" : "/Users/Rebeka/Desktop/ModularSoftware/implementations/SIKE_orig"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

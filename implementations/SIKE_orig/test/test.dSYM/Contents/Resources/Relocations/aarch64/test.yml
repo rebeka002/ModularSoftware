@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/Rebeka/Desktop/BP/practical_part/MODULAR_SOFTWARE/SIKE_orig/test/test'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002BA0, symSize: 0x4B8 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002BA0, symSize: 0x4B8 }
+  - { offsetInCU: 0x26, offset: 0x731, size: 0x8, addend: 0x0, symName: _test_arith, symObjAddr: 0x0, symBinAddr: 0x10000A3A4, symSize: 0x70 }
+  - { offsetInCU: 0x41, offset: 0x74C, size: 0x8, addend: 0x0, symName: _test_arith, symObjAddr: 0x0, symBinAddr: 0x10000A3A4, symSize: 0x70 }
+  - { offsetInCU: 0x8A, offset: 0x795, size: 0x8, addend: 0x0, symName: _test_fp, symObjAddr: 0x70, symBinAddr: 0x10000A414, symSize: 0xBF0 }
+  - { offsetInCU: 0x147, offset: 0x852, size: 0x8, addend: 0x0, symName: _test_fp2, symObjAddr: 0xC60, symBinAddr: 0x10000B004, symSize: 0xD38 }
+  - { offsetInCU: 0x26, offset: 0xD41, size: 0x8, addend: 0x0, symName: _test_sidh, symObjAddr: 0x0, symBinAddr: 0x10000BD3C, symSize: 0x44C }
+  - { offsetInCU: 0x48, offset: 0xD63, size: 0x8, addend: 0x0, symName: _test_sidh, symObjAddr: 0x0, symBinAddr: 0x10000BD3C, symSize: 0x44C }
+  - { offsetInCU: 0x140, offset: 0xE5B, size: 0x8, addend: 0x0, symName: _test_pke, symObjAddr: 0x44C, symBinAddr: 0x10000C188, symSize: 0x358 }
+  - { offsetInCU: 0x25E, offset: 0xF79, size: 0x8, addend: 0x0, symName: _test_sike, symObjAddr: 0x7A4, symBinAddr: 0x10000C4E0, symSize: 0x224 }
+  - { offsetInCU: 0x34C, offset: 0x1067, size: 0x8, addend: 0x0, symName: _test_sike_int, symObjAddr: 0x9C8, symBinAddr: 0x10000C704, symSize: 0x32C }
+  - { offsetInCU: 0x459, offset: 0x1174, size: 0x8, addend: 0x0, symName: _test_sike_speedy, symObjAddr: 0xCF4, symBinAddr: 0x10000CA30, symSize: 0x320 }
+  - { offsetInCU: 0x57E, offset: 0x1299, size: 0x8, addend: 0x0, symName: _test_sike_speedy_int, symObjAddr: 0x1014, symBinAddr: 0x10000CD50, symSize: 0x444 }
+  - { offsetInCU: 0x26, offset: 0x18E3, size: 0x8, addend: 0x0, symName: _cpucycles, symObjAddr: 0x0, symBinAddr: 0x10000D194, symSize: 0x8 }
+  - { offsetInCU: 0x33, offset: 0x18F0, size: 0x8, addend: 0x0, symName: _cpucycles, symObjAddr: 0x0, symBinAddr: 0x10000D194, symSize: 0x8 }
+  - { offsetInCU: 0x26, offset: 0x1941, size: 0x8, addend: 0x0, symName: _print_hex, symObjAddr: 0x0, symBinAddr: 0x10000D19C, symSize: 0xA0 }
+  - { offsetInCU: 0x41, offset: 0x195C, size: 0x8, addend: 0x0, symName: _print_hex, symObjAddr: 0x0, symBinAddr: 0x10000D19C, symSize: 0xA0 }
+  - { offsetInCU: 0x9D, offset: 0x19B8, size: 0x8, addend: 0x0, symName: _printFp2, symObjAddr: 0xA0, symBinAddr: 0x10000D23C, symSize: 0x4C }
+  - { offsetInCU: 0xCF, offset: 0x19EA, size: 0x8, addend: 0x0, symName: _printPt, symObjAddr: 0xEC, symBinAddr: 0x10000D288, symSize: 0x64 }
+  - { offsetInCU: 0x101, offset: 0x1A1C, size: 0x8, addend: 0x0, symName: _printPk, symObjAddr: 0x150, symBinAddr: 0x10000D2EC, symSize: 0x88 }
+  - { offsetInCU: 0x133, offset: 0x1A4E, size: 0x8, addend: 0x0, symName: _printPkExt, symObjAddr: 0x1D8, symBinAddr: 0x10000D374, symSize: 0x74 }
+...

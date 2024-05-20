@@ -1,0 +1,44 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/Rebeka/Desktop/ModularSoftware/src/measurement_functions'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cpucycles, symObjAddr: 0x0, symBinAddr: 0x100003394, symSize: 0x44 }
+  - { offsetInCU: 0x61, offset: 0x61, size: 0x8, addend: 0x0, symName: _cpucycles, symObjAddr: 0x0, symBinAddr: 0x100003394, symSize: 0x44 }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _measure_function, symObjAddr: 0x44, symBinAddr: 0x1000033D8, symSize: 0x168 }
+  - { offsetInCU: 0x139, offset: 0x139, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1AC, symBinAddr: 0x100003540, symSize: 0x58 }
+  - { offsetInCU: 0x26, offset: 0x21E, size: 0x8, addend: 0x0, symName: _randombytes, symObjAddr: 0x0, symBinAddr: 0x1000170CC, symSize: 0x148 }
+  - { offsetInCU: 0x33, offset: 0x22B, size: 0x8, addend: 0x0, symName: _randombytes, symObjAddr: 0x0, symBinAddr: 0x1000170CC, symSize: 0x148 }
+  - { offsetInCU: 0x54, offset: 0x24C, size: 0x8, addend: 0x0, symName: _randombytes.fd, symObjAddr: 0x148, symBinAddr: 0x100028000, symSize: 0x0 }
+  - { offsetInCU: 0x26, offset: 0x301, size: 0x8, addend: 0x0, symName: _keygen512, symObjAddr: 0x0, symBinAddr: 0x100017214, symSize: 0xA0 }
+  - { offsetInCU: 0x58, offset: 0x333, size: 0x8, addend: 0x0, symName: _keygen512, symObjAddr: 0x0, symBinAddr: 0x100017214, symSize: 0xA0 }
+  - { offsetInCU: 0x8F, offset: 0x36A, size: 0x8, addend: 0x0, symName: _generateKeyPair512, symObjAddr: 0xA0, symBinAddr: 0x1000172B4, symSize: 0x2C }
+  - { offsetInCU: 0xC1, offset: 0x39C, size: 0x8, addend: 0x0, symName: _encaps512, symObjAddr: 0xCC, symBinAddr: 0x1000172E0, symSize: 0x88 }
+  - { offsetInCU: 0xF7, offset: 0x3D2, size: 0x8, addend: 0x0, symName: _test_keys, symObjAddr: 0x154, symBinAddr: 0x100017368, symSize: 0xE0 }
+  - { offsetInCU: 0x15B, offset: 0x436, size: 0x8, addend: 0x0, symName: _decaps512, symObjAddr: 0x234, symBinAddr: 0x100017448, symSize: 0xA8 }
+  - { offsetInCU: 0x191, offset: 0x46C, size: 0x8, addend: 0x0, symName: _test_invalid_sk_a, symObjAddr: 0x2DC, symBinAddr: 0x1000174F0, symSize: 0xEC }
+  - { offsetInCU: 0x1F5, offset: 0x4D0, size: 0x8, addend: 0x0, symName: _test_invalid_ciphertext, symObjAddr: 0x3C8, symBinAddr: 0x1000175DC, symSize: 0x140 }
+  - { offsetInCU: 0x26, offset: 0x5CB, size: 0x8, addend: 0x0, symName: _keygen768, symObjAddr: 0x0, symBinAddr: 0x10001771C, symSize: 0xA0 }
+  - { offsetInCU: 0x58, offset: 0x5FD, size: 0x8, addend: 0x0, symName: _keygen768, symObjAddr: 0x0, symBinAddr: 0x10001771C, symSize: 0xA0 }
+  - { offsetInCU: 0x8F, offset: 0x634, size: 0x8, addend: 0x0, symName: _generateKeyPair768, symObjAddr: 0xA0, symBinAddr: 0x1000177BC, symSize: 0x2C }
+  - { offsetInCU: 0xC1, offset: 0x666, size: 0x8, addend: 0x0, symName: _encaps768, symObjAddr: 0xCC, symBinAddr: 0x1000177E8, symSize: 0x88 }
+  - { offsetInCU: 0xF7, offset: 0x69C, size: 0x8, addend: 0x0, symName: _test_keys, symObjAddr: 0x154, symBinAddr: 0x100017870, symSize: 0xF8 }
+  - { offsetInCU: 0x15B, offset: 0x700, size: 0x8, addend: 0x0, symName: _decaps768, symObjAddr: 0x24C, symBinAddr: 0x100017968, symSize: 0xA8 }
+  - { offsetInCU: 0x191, offset: 0x736, size: 0x8, addend: 0x0, symName: _test_invalid_sk_a, symObjAddr: 0x2F4, symBinAddr: 0x100017A10, symSize: 0x104 }
+  - { offsetInCU: 0x1F5, offset: 0x79A, size: 0x8, addend: 0x0, symName: _test_invalid_ciphertext, symObjAddr: 0x3F8, symBinAddr: 0x100017B14, symSize: 0x158 }
+  - { offsetInCU: 0x26, offset: 0x895, size: 0x8, addend: 0x0, symName: _keygen1024, symObjAddr: 0x0, symBinAddr: 0x100017C6C, symSize: 0xB8 }
+  - { offsetInCU: 0x58, offset: 0x8C7, size: 0x8, addend: 0x0, symName: _keygen1024, symObjAddr: 0x0, symBinAddr: 0x100017C6C, symSize: 0xB8 }
+  - { offsetInCU: 0x8F, offset: 0x8FE, size: 0x8, addend: 0x0, symName: _generateKeyPair1024, symObjAddr: 0xB8, symBinAddr: 0x100017D24, symSize: 0x2C }
+  - { offsetInCU: 0xC1, offset: 0x930, size: 0x8, addend: 0x0, symName: _encaps1024, symObjAddr: 0xE4, symBinAddr: 0x100017D50, symSize: 0x88 }
+  - { offsetInCU: 0xF7, offset: 0x966, size: 0x8, addend: 0x0, symName: _test_keys, symObjAddr: 0x16C, symBinAddr: 0x100017DD8, symSize: 0xFC }
+  - { offsetInCU: 0x15B, offset: 0x9CA, size: 0x8, addend: 0x0, symName: _decaps1024, symObjAddr: 0x268, symBinAddr: 0x100017ED4, symSize: 0xA8 }
+  - { offsetInCU: 0x191, offset: 0xA00, size: 0x8, addend: 0x0, symName: _test_invalid_sk_a, symObjAddr: 0x310, symBinAddr: 0x100017F7C, symSize: 0x108 }
+  - { offsetInCU: 0x1F5, offset: 0xA64, size: 0x8, addend: 0x0, symName: _test_invalid_ciphertext, symObjAddr: 0x418, symBinAddr: 0x100018084, symSize: 0x15C }
+  - { offsetInCU: 0x26, offset: 0xB52, size: 0x8, addend: 0x0, symName: _test_keygen, symObjAddr: 0x0, symBinAddr: 0x10001F490, symSize: 0xE0 }
+  - { offsetInCU: 0x48, offset: 0xB74, size: 0x8, addend: 0x0, symName: _test_keygen, symObjAddr: 0x0, symBinAddr: 0x10001F490, symSize: 0xE0 }
+  - { offsetInCU: 0xD3, offset: 0xBFF, size: 0x8, addend: 0x0, symName: _keygen, symObjAddr: 0xE0, symBinAddr: 0x10001F570, symSize: 0x160 }
+  - { offsetInCU: 0x16F, offset: 0xC9B, size: 0x8, addend: 0x0, symName: _test_encaps, symObjAddr: 0x240, symBinAddr: 0x10001F6D0, symSize: 0xF8 }
+  - { offsetInCU: 0x232, offset: 0xD5E, size: 0x8, addend: 0x0, symName: _encaps, symObjAddr: 0x338, symBinAddr: 0x10001F7C8, symSize: 0x148 }
+  - { offsetInCU: 0x276, offset: 0xDA2, size: 0x8, addend: 0x0, symName: _encapsSIKEp434, symObjAddr: 0x480, symBinAddr: 0x10001F910, symSize: 0x2C }
+  - { offsetInCU: 0x29A, offset: 0xDC6, size: 0x8, addend: 0x0, symName: _test_decaps, symObjAddr: 0x4AC, symBinAddr: 0x10001F93C, symSize: 0x1A4 }
+  - { offsetInCU: 0x37C, offset: 0xEA8, size: 0x8, addend: 0x0, symName: _decaps, symObjAddr: 0x650, symBinAddr: 0x10001FAE0, symSize: 0x158 }
+...

@@ -1,0 +1,19 @@
+SIKEp434/CMakeFiles/sikep434_ref.dir/api.c.o: \
+  /Users/Rebeka/Downloads/SIKE/SIKEp434/api.c \
+  /Users/Rebeka/Downloads/SIKE/SIKEp434/api.h \
+  /Users/Rebeka/Downloads/SIKE/include/sike_params.h \
+  /Users/Rebeka/Downloads/SIKE/include/montgomery.h \
+  /Users/Rebeka/Downloads/SIKE/include/fp2.h \
+  /Users/Rebeka/Downloads/SIKE/include/fp.h \
+  /Users/Rebeka/Downloads/SIKE/include/gmp.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/machine/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/arm/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/arm/_limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/syslimits.h \
+  /Users/Rebeka/Downloads/SIKE/include/api_generic.h

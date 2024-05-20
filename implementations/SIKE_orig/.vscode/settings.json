@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "encoding.h": "c",
+        "stdio.h": "c",
+        "test_arith.h": "c",
+        "test_sike.h": "c"
+    }
+}

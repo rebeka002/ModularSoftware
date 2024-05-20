@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "kyber512_implem.h": "c",
+        "kyber512_test.h": "c"
+    },
+    "editor.cursorBlinking": "blink",
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredHighContrastColorTheme": "Default Light+"
+}

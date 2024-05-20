@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "kyber512.h": "c",
+        "kyber1024.h": "c",
+        "tests.h": "c",
+        "kyber768.h": "c",
+        "measurement_functions.h": "c",
+        "stdint.h": "c",
+        "random.h": "c",
+        "sike_params.h": "c",
+        "testing.h": "c",
+        "test_sike.h": "c",
+        "encoding.h": "c",
+        "test_extras.h": "c",
+        "string.h": "c",
+        "stddef.h": "c",
+        "mach_error.h": "c",
+        "malloc.h": "c",
+        "typeinfo": "c",
+        "memory.h": "c",
+        "kem.h": "c"
+    }
+}

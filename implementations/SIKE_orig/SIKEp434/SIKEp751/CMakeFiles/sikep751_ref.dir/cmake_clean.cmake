@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sikep751_ref.dir/api.c.o"
+  "CMakeFiles/sikep751_ref.dir/api.c.o.d"
+  "libsikep751_ref.a"
+  "libsikep751_ref.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/sikep751_ref.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
