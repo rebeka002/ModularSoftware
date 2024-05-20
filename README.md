@@ -35,7 +35,7 @@ The software is structured to facilitate ease of use and modularity. It consists
 git clone https://github.com/rebeka002/ModularSoftware.git
 ```
 
-Tasks.json must be configured correctly. Paths to libraries and directories need to be linked correctly.
+Project settings must be configured correctly. Paths to libraries and directories need to be linked correctly. Repository contains folder **.vscode** including tasks.json with correct configuration. 
 
 
 
