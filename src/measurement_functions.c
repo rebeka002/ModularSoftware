@@ -561,13 +561,13 @@ double calculate_entropy(const uint8_t *data, size_t length)
     int count[256] = {0}; // Array to count occurrences of each byte value
     double entropy = 0.0;
 
-    // Count occurrences of each byte value
+    // Counting occurrences of each byte value
     for (size_t i = 0; i < length; ++i)
     {
         count[data[i]]++;
     }
 
-    // Calculate entropy using Shannon's entropy formula
+    // Calculating entropy using Shannon's entropy formula
     for (int i = 0; i < 256; ++i)
     {
         if (count[i] != 0)

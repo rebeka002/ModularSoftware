@@ -24,7 +24,6 @@ void app_termination();
 void enter_menu()
 {
     printf("\nMODULAR SOFTWARE FOR MEASUREMENT OF PQC KEM SYSTEMS\n\n");
-    // printf("The software measures NIST PQC KEM candidates - SIKE and KYBER.\n\n");
 }
 
 int sec_lvl(int implem)
@@ -97,7 +96,6 @@ void *speed_menu(int *runs, char *units)
         return speed_menu(runs, units);
     }
 
-    // Return NULL to indicate successful execution
 }
 
 void *memory_menu(int *runs)
@@ -356,7 +354,6 @@ int function_menu()
     if (scanf("%d", &func) != 1 || (func < 1 || func > 4))
     {
         printf("\nPlease enter a valid choice of function\n\n");
-        // Vyčistiť buffer vstupu
         int c;
         while ((c = getchar()) != '\n' && c != EOF)
             ;
