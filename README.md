@@ -1,0 +1,1 @@
+This modular software is designed to measure the performance of candidates for the NIST Post-Quantum Cryptography (PQC) Key Encapsulation Mechanisms (KEM). It provides a comprehensive set of tools to evaluate and benchmark different cryptographic algorithms proposed for standardization.
