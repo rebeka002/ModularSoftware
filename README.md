@@ -1,4 +1,4 @@
-# MODULAR SOFTWARE FOR EVALUATIONOF NIST PQC KEM CANDIDATES
+# MODULAR SOFTWARE FOR EVALUATION OF NIST PQC KEM CANDIDATES
 
 This repository contains the modular software designed for measuring the performance of NIST PQC KEM candidates. The software is implemented in C, utilizing the Visual Studio Code environment and GCC compiler. The software aims to provide a modular and user-friendly interface for evaluating various cryptographic implementations.
 
