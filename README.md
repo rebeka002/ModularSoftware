@@ -5,11 +5,13 @@ This repository contains the modular software designed for measuring the perform
 ## Selection of Candidates
 
 ### CRYSTALS Kyber
-Implementation: Sourced from the official CRYSTALS Kyber repository.
-Security Levels: Kyber512, Kyber768, Kyber1024 corresponding to NIST security levels 1, 3, and 5 respectively.
+**Implementation**: Sourced from the official CRYSTALS Kyber repository.
+
+**Security Levels**: Kyber512, Kyber768, Kyber1024 corresponding to NIST security levels 1, 3, and 5 respectively.
 ### SIKE
-Implementation: Sourced from the official SIKE repository.
-Security Levels: SIKEp434, SIKEp503, SIKEp610, SIKEp751 corresponding to NIST security levels 1, 2, 3, and 5 respectively.
+**Implementation**: Sourced from the official SIKE repository.
+
+**Security Levels**: SIKEp434, SIKEp503, SIKEp610, SIKEp751 corresponding to NIST security levels 1, 2, 3, and 5 respectively.
 
 ## Software Design
 
