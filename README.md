@@ -37,9 +37,34 @@ git clone https://github.com/rebeka002/ModularSoftware.git
 
 Project settings must be configured correctly. Paths to libraries and directories need to be linked correctly. Repository contains folder **.vscode** including tasks.json with correct configuration. 
 
+In the provided build task, the following libraries are referenced:
 
+```
+- libkyber512_ref
+- libkyber768_ref
+- libkyber1024_ref
+- libkyber512_90s_ref
+- libkyber768_90s_ref
+- libkyber1024_90s_ref
+- libfips202_ref
+- libcrypto
+- libsike_ref
+- libsike_ref_for_test
+- libgmp
+```
 
+These libraries need to be installed on system and accessible to the compiler. 
 
+Additionally, the paths specified with the -L flags in the build task
+
+```
+(-L/Users/Rebeka/Desktop/ModularSoftware/implementations/kyber-main/build/ref,
+-L/opt/homebrew/Cellar/openssl@1.1/1.1.1w/lib,
+-L/Users/Rebeka/Desktop/BP/practical_part/MODULAR_SOFTWARE/SIKE_orig/build,
+-L/opt/homebrew/Cellar/gmp/6.3.0/lib,
+-L/Users/Rebeka/Desktop/BP/practical_part/MODULAR_SOFTWARE/SIKE_orig/test)
+```
+need to be correct and point to the directories where these libraries are installed. If necessary, adjust these paths to match the actual locations of the libraries on your system.
 
 
 
