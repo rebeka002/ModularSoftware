@@ -95,7 +95,6 @@ void *speed_menu(int *runs, char *units)
         printf("\nPlease enter valid choice of runs and units\n");
         return speed_menu(runs, units);
     }
-
 }
 
 void *memory_menu(int *runs)
@@ -148,13 +147,13 @@ int measurement_menu(int implem)
         {
             unsigned long long size = get_dir_size("/Users/Rebeka/Desktop/ModularSoftware/orig_implementations/SIKE");
             printf("\nTotal size of folder is : %llu bytes\n\n", size);
-            exit(0);
+            app_termination();
         }
         else if (implem == 2)
         {
             unsigned long long size = get_dir_size("/Users/Rebeka/Desktop/ModularSoftware/orig_implementations/KYBER");
             printf("\nTotal size of folder is : %llu bytes\n\n", size);
-            exit(0);
+            app_termination();
         }
     }
     else if (measure == '1' || measure == '2')
@@ -368,26 +367,34 @@ void menu()
 {
     int implem;
     int lvl, func;
-    char measure;
+    int measure;
 
     printf("\nEnter the desired implementation:\n\n"
            "1 ... SIKE (Supersingular isogeny key exchange) \n"
            "2 ... Crystals KYBER \n\n");
 
-    scanf(" %d", &implem);
+    if (scanf("%d", &implem) != 1 || (implem != 1 && implem != 2))
+    {
+        printf("\nPlease enter a valid choice\n\n");
+        int c;
+        while ((c = getchar()) != '\n' && c != EOF)
+            ;
+        menu();
+        return;
+    }
 
     switch (implem)
     {
     case 1:
-        measure = measurement_menu(implem);
-        break;
     case 2:
         measure = measurement_menu(implem);
         break;
     default:
         printf("\nInvalid choice\n");
         menu();
+        return; // Opustíme funkci, aby nedošlo k provádění kódu po skončení rekurze
     }
+
     func = function_menu();
     lvl = sec_lvl(implem);
     measurement(implem, lvl, func, measure);
