@@ -58,11 +58,11 @@ These libraries need to be installed on system and accessible to the compiler.
 Additionally, the paths specified with the -L flags in the build task
 
 ```
-(-L/Users/Rebeka/Desktop/ModularSoftware/implementations/kyber-main/build/ref,
+-L/Users/Rebeka/Desktop/ModularSoftware/implementations/kyber-main/build/ref,
 -L/opt/homebrew/Cellar/openssl@1.1/1.1.1w/lib,
 -L/Users/Rebeka/Desktop/BP/practical_part/MODULAR_SOFTWARE/SIKE_orig/build,
 -L/opt/homebrew/Cellar/gmp/6.3.0/lib,
--L/Users/Rebeka/Desktop/BP/practical_part/MODULAR_SOFTWARE/SIKE_orig/test)
+-L/Users/Rebeka/Desktop/BP/practical_part/MODULAR_SOFTWARE/SIKE_orig/test
 ```
 need to be correct and point to the directories where these libraries are installed. If necessary, adjust these paths to match the actual locations of the libraries on your system.
 
